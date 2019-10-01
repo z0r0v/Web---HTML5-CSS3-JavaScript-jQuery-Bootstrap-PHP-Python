@@ -1,0 +1,16 @@
+body {
+  background-color: lightgrey;
+}
+.hidden {
+  display: none;
+}
+.visible {
+  display: block;
+}
+
+form {
+  background-color: white;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
