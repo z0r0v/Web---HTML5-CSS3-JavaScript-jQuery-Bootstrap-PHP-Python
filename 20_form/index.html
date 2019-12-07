@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+<form id="myForm" action="">
+    <p>Placeh: <input type="text" placeholder="Input some text"></p>
+    <p>Autofoces: <input type="text" placeholder="Input some text" autofocus></p>
+    <p>Required: <input type="text" placeholder="Input some text" required></p>
+    <p>Email: <input type="email" placeholder="Input some text"></p>
+    <p>Pattern: <input type="text" pattern="[0-9]"></p>
+    <p><input type="submit" value="Submit"></p>
+    <datalist id="colors">
+        <option>Red</option>
+        <option>Orenge</option>
+        <option>Green</option>
+        <option>Yelow</option>
+        <option>Blue</option>
+    </datalist>
+    <p>Autocomplit: <input type="text" list="colors"></p>
+</form>
+
+<p>Autocomplit: <input form="myForm" type="text" list="colors"></p>
+</body>
+</html>
