@@ -1,0 +1,24 @@
+.first, .therthd, .second {
+    width: 200px;
+    float: left;
+    color: white;
+    background: gray;
+    margin: 10px;
+    padding: 10px;
+}
+
+.first {
+
+}
+
+.second {
+    float: right;
+}
+
+.therthd {
+
+}
+
+.fore {
+    clear: both;
+}
