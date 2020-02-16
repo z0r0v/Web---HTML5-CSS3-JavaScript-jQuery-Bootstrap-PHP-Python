@@ -1,0 +1,32 @@
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.value {
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+
+}
+
+button {
+    width: calc(50% - 10px);
+    padding: 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #EE82EE;
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+@media (max-width: 760px) {
+    button {
+        width: calc(100% - 20px);
+    }
+}
