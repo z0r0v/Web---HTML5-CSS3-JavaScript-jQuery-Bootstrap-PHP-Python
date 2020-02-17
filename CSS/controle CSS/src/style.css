@@ -1,0 +1,42 @@
+@import url("import-fonts.css");
+
+body {
+    font-family:'Roboto-Regular', sans-serif;
+    font-size: 17px;
+}
+
+.body__h1 {
+    text-transform: uppercase;
+    color: #2c3e4f;
+}
+
+.body__first {
+    border: none;
+    color: #1f85c4;
+    background-color: #1f85c4;
+    height: 4px;
+}
+
+.body__box-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*@media (max-width: 1024px) {*/
+/*    .body__box-img {*/
+/*        flex-direction: column;*/
+/*        flex-wrap: nowrap;*/
+/*    }*/
+/*}*/
+
+
+.body__box-img picture {
+    width: calc(100% / 4);
+}
+
+.body__box-img picture img  {
+    width: 250px;
+    height: 250px;
+}
+
