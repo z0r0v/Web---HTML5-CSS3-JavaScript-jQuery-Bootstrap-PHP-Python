@@ -1,42 +1,68 @@
 @import url("import-fonts.css");
 
+
+:root {
+    --color-blue:#1f85c4;
+    --color-dark-blue:#2c3e4f;
+}
+
 body {
     font-family:'Roboto-Regular', sans-serif;
     font-size: 17px;
 }
 
+.container {
+    margin: 0 11px;
+}
+
 .body__h1 {
+    margin-top: 18px;
+    margin-bottom: 17px;
     text-transform: uppercase;
-    color: #2c3e4f;
+    color:var(--color-dark-blue);
+    font-size: 18px;
 }
 
 .body__first {
+    margin-bottom: 27px;
     border: none;
-    color: #1f85c4;
-    background-color: #1f85c4;
-    height: 4px;
+    color: var(--color-blue);
+    background-color: var(--color-blue);
+    height: 2px;
+
 }
 
 .body__box-img {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-/*@media (max-width: 1024px) {*/
-/*    .body__box-img {*/
-/*        flex-direction: column;*/
-/*        flex-wrap: nowrap;*/
-/*    }*/
-/*}*/
-
-
-.body__box-img picture {
-    width: calc(100% / 4);
-}
 
 .body__box-img picture img  {
-    width: 250px;
-    height: 250px;
+    width: 228px;
+    height: 240px;
+    margin-bottom: 22px;
 }
+
+.body__h2-first {
+    margin-top: -9px;
+    font-size: 14px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: var(--color-blue);
+
+}
+.body__h2-seccond {
+    margin-top: 26px;
+    letter-spacing: 1px;
+}
+.body__first-p {
+    border-left: 4px solid var(--color-blue);
+    padding-left: 5px;
+    padding-top: 1px;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
 
