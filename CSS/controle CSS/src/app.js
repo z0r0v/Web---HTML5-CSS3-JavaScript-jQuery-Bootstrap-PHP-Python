@@ -5,7 +5,6 @@ const object = {
     },
     methods: {
         createElement: function () {
-
             for (let i = 0; i < 10; i++) {
                 const picture = document.createElement("picture");
                 const img = document.createElement("img");
