@@ -4,6 +4,14 @@
     <title>JS</title>
 </head>
 <body>
-<button onclick="alert('Hello World')">My button</button>
+<!--Inline-->
+<button onclick="console.log('Hello World')">My button</button>
+<button onclick="alert('Hello World')">My button2</button>
+<!--internal-->
+<script>
+    alert('Page has loaded');
+</script>
+<!--external-->
+<script src="index.js"></script>
 </body>
 </html>
