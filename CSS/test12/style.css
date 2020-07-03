@@ -1,0 +1,16 @@
+body {
+  font-size: 20px;
+  background-color: ghostwhite;
+}
+.blue-with-border, .blue-with-border {
+  height: 30px;
+  background-color: blue;
+  border: 5px dashed ghostwhite;
+  color: white;
+}
+#second-paragraph {
+  height: 30px;
+  background-color: red;
+  color: yellow;
+}
+
