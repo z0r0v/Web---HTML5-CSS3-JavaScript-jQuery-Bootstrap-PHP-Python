@@ -7,7 +7,6 @@ console.log("userLastName", typeof userLastName);
 // 3 Какого типа переменная userAge в 3 строке?
 var userAge = 43;
 console.log("userAge", typeof userAge);
-
 // 4 Какого типа переменная userAge в 4 строке?
 userAge = userLastName;
 console.log("userAge str 4",typeof userAge);
