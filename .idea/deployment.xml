@@ -2,14 +2,7 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
-      <paths name="jeans">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="savilerowco-dev4">
+      <paths name="thevibedLive">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$/../sawiler-dev4" web="/" />
